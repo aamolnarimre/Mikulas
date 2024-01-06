@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    background-color: red;
+    color: ;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: none;
+}
+
+body {
+    background-image: url(hatter.jpg);
+}
+
+
+aside  {
+    width: 100%;
+ 
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 230);
+    margin: auto;
+ 
+}
+
+header {
+    background-image: url(fejlec.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    padding-top: 60px;
+
+
+
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 550px;
+    color: red;
+    font-family: cursive;
+    text-align: center;
+
+    
+
+    font-weight: bold; #ez szart nem ér itt
+    
+}
+
+
+
+.grid-nav{
+    grid-template-columns: repeat(3, 1fr);
+}
+nav {
+    height: 50px;
+    background-color: red;
+    display: flex;
+    
+    
+    
+}
+
+li:hover{
+    background-color: green;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+nav li {
+    border-top: dotted white;
+    border-bottom: dotted white;
+    padding: 5px;
+    font-weight: bold;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white; /* Szöveg színének beállítása */
+    display: table-header-group;
+    border-bottom: 1px solid white;
+  }
+  h5 {
+    font-size: 15px;
+    color: #ff1a1a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+article {
+    text-align: justify;
+    
+}
